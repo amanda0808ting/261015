@@ -1,0 +1,16 @@
+question,option1,option2,option3,option4,answer
+在 p5.js 中，setup() 函式通常會執行幾次？,每一幀執行一次,通常只執行一次,每次滑鼠點擊時執行,每次鍵盤輸入時執行,1
+p5.js 的 draw() 函式通常有什麼特性？,只執行一次,會持續重複執行,只在滑鼠按下時執行,只在畫布建立時執行,1
+哪一個函式可以建立指定寬度與高度的畫布？,createCanvas(),makeCanvas(),canvasSize(),newCanvas(),0
+background(0) 通常會將畫布設定成什麼顏色？,白色,透明,黑色,紅色,2
+哪一個函式可以設定圖形的填滿顏色？,fill(),stroke(),background(),lineColor(),0
+哪一個函式可以設定圖形外框線的顏色？,fill(),stroke(),outlineColor(),border(),1
+在 p5.js 中，哪一個函式可以繪製橢圓形？,rect(),line(),ellipse(),triangle(),2
+哪一個函式可以繪製矩形？,squareLine(),box(),rectangle(),rect(),3
+哪一個函式可以在畫布上繪製一條直線？,point(),line(),strokeLine(),drawLine(),1
+mousePressed() 函式通常會在什麼時候被呼叫？,滑鼠按下時,每一幀開始時,畫布載入前,視窗關閉時,0
+frameRate(30) 的主要作用是什麼？,建立 30 個畫布,設定背景為灰色,嘗試將畫面更新率設為每秒 30 幀,讓滑鼠移動 30 像素,2
+random(10) 通常會回傳哪一類型的值？,固定回傳 10,0（含）到 10（不含）之間的隨機數,1 到 10 的字串,只能回傳 true 或 false,1
+"loadTable('questions.csv', 'csv', 'header') 的用途是什麼？",將畫布匯出成 PNG,讀取滑鼠目前位置,設定文字字型,載入含有標題列的 CSV 題庫資料,3
+noStroke() 的作用是什麼？,移除畫布背景,停止 draw(),讓圖形不繪製外框線,讓圖形不使用填滿色,2
+mouseX 和 mouseY 通常代表什麼資料？,滑鼠在畫布上的目前座標,畫布的寬度與高度,目前的背景顏色,目前的測驗分數,0
